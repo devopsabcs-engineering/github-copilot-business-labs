@@ -39,6 +39,7 @@ test("confirmation et statuts: simule localement puis avance par commandes", asy
   await page.getByRole("button", { name: "Continuer" }).click();
 
   await page.getByLabel("Document justificatif fictif").setInputFiles(PDF_FICTIF);
+  await expect(page.getByText("Document conservé : preuve-fictive.pdf")).toBeVisible();
   await page.getByRole("button", { name: "Continuer" }).click();
   await page.getByLabel(/Je confirme avoir vérifié/).check();
   await page.getByRole("button", { name: "Continuer" }).click();

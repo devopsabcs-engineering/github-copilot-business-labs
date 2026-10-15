@@ -10,8 +10,8 @@ export const excludedDocuments = [
   { name: "GitHub Copilot for business fundamentals - fr.pdf", sha256: "989f79f04a710dedb87bea1535e1c384a7fa3f319a540e192a931711f5fe0409", blob: "9b102a65f61486db60d20c6e1f9cbc452cd89f90" },
   { name: "GitHub Copilot for Developers Intermediate - fr.pdf", sha256: "68aa1f4c5c1af15322e1a6a75ed63077319044982468bc7c30b34ac434c02f05", blob: "d780f063d58c04b3f2a9f62bba020f72eceb2b1d" },
 ];
-const runtimeRoots = new Set(["node_modules", ".next", "out", "test-results", "playwright-report", "coverage", "build", "next-env.d.ts"]);
-const forbiddenSegments = /^(?:\.git|\.vscode|\.copilot-tracking|\.copilot|\.azure|\.env(?:\..*)?|\.npmrc|mcp\.json|node_modules|\.next|test-results|playwright-report|coverage|.*\.(?:pem|key|local|tsbuildinfo))$/i;
+const runtimeRoots = new Set(["node_modules", ".next", ".tsupgrader", "out", "test-results", "playwright-report", "coverage", "build", "next-env.d.ts", "tsconfig.tsbuildinfo"]);
+const forbiddenSegments = /^(?:\.git|\.vscode|\.copilot-tracking|\.copilot|\.azure|\.env(?:\..*)?|\.npmrc|mcp\.json|node_modules|\.next|\.tsupgrader|test-results|playwright-report|coverage|.*\.(?:pem|key|local|tsbuildinfo))$/i;
 const internalContent = /(?:https?:\/\/[^\s"'<>]*(?:pkgs\.visualstudio\.com|dev\.azure\.com)|rq-demandes-de-subventio[n]s|MngEnvMCAP\d+|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\b(?:ghp_[A-Za-z0-9]{36}|github_pat_[A-Za-z0-9_]{60,})\b)/i;
 
 export function inspectBytes(bytes, label) {

@@ -70,12 +70,12 @@ test.beforeEach(async ({ page }) => {
 test(
   "axe et débordement: chaque famille de pages statiques",
   async ({ page }) => {
+    test.setTimeout(180_000);
     for (const route of ROUTES_STATIQUES) {
       await page.goto(route);
       await verifierAxeEtDebordement(page);
     }
   },
-  { timeout: 180_000 },
 );
 
 test("inadmissibilité: conserve le focus et ne crée aucun brouillon", async ({

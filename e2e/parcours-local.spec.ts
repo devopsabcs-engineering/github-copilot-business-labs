@@ -84,7 +84,9 @@ test("parcours: valide les cinq étapes et s'arrête à la vérification", async
 
 test("pdf: restaure le document local après rechargement sans requête réseau", async ({
   page,
+  baseURL,
 }) => {
+  const origineLocale = new URL(baseURL!).origin;
   const id = await creerBrouillon(page);
   await page.goto(`/demandes/dossier/etape/3?id=${id}`);
   const prechargementsStatiques: string[] = [];
@@ -93,7 +95,7 @@ test("pdf: restaure le document local après rechargement sans requête réseau"
     const methode = requete.method();
     const url = new URL(requete.url());
     const lectureStatiqueLocale =
-      url.origin === "http://localhost:3000" &&
+      url.origin === origineLocale &&
       !url.pathname.startsWith("/api/") &&
       ["GET", "HEAD"].includes(methode);
 

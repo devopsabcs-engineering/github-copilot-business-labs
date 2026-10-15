@@ -24,7 +24,7 @@ test("l’export statique sert les préchargements RSC et conserve la navigation
   page.on("requestfailed", (request) => {
     const url = new URL(request.url());
     const erreur = request.failure()?.errorText;
-    const navigationAnnulee = ["net::ERR_ABORTED", "NS_BINDING_ABORTED"].includes(
+    const navigationAnnulee = ["net::ERR_ABORTED", "NS_BINDING_ABORTED", "Load request cancelled"].includes(
       erreur ?? "",
     );
     if (url.searchParams.has("_rsc") && !navigationAnnulee) {

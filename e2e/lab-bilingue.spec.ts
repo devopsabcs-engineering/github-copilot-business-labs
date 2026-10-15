@@ -162,7 +162,7 @@ test.describe("laboratoire bilingue", () => {
         `,
       });
       await expectNoOverflow(page);
-      await textSpacingStyle.evaluate((element) => element.remove());
+      await textSpacingStyle.evaluate((element) => element.parentNode?.removeChild(element));
 
       if (testInfo.project.name === "chromium") {
         await page.evaluate(() => {
@@ -184,12 +184,13 @@ test.describe("laboratoire bilingue", () => {
     }
   });
 
-  test("ne produit aucune requête API ou mutation réseau", async ({ page }) => {
+  test("ne produit aucune requête API ou mutation réseau", async ({ page, baseURL }) => {
+    const expectedOrigin = new URL(baseURL!).origin;
     const unexpectedRequests: string[] = [];
     page.on("request", (request) => {
       const url = new URL(request.url());
       if (
-        url.origin !== "http://localhost:3000" ||
+        url.origin !== expectedOrigin ||
         url.pathname.startsWith("/api/") ||
         !["GET", "HEAD"].includes(request.method())
       ) {

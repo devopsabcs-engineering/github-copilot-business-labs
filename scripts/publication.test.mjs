@@ -13,9 +13,21 @@ test("reject prohibited paths, encoded names, config, secrets and renamed intern
     assert.throws(() => inspectPath(`assets/${entry.name}`));
     assert.throws(() => inspectPath(`renamed/${encodeURIComponent(entry.name)}`));
   }
-  for (const name of [".git/config", ".vscode/settings.json", ".copilot-tracking/note.md", ".env", "key.pem", "nested/mcp.json"]) assert.throws(() => inspectPath(name));
+  for (const name of [".git/config", ".vscode/settings.json", ".copilot-tracking/note.md", ".tsupgrader/runtime-validation/eval-plan.json", ".env", "key.pem", "nested/mcp.json"]) assert.throws(() => inspectPath(name));
   assert.throws(() => inspectBytes(Buffer.from(`-----BEGIN ${"PRIVATE KEY"}-----`), "renamed.txt"));
   inspectBytes(Buffer.from("public fictitious content"), "safe.txt");
+});
+
+test("local upgrade artifacts are excluded from candidates but rejected in exports", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "public-upgrade-"));
+  try {
+    await mkdir(path.join(root, ".tsupgrader", "runtime-validation"), { recursive: true });
+    await writeFile(path.join(root, ".tsupgrader", "runtime-validation", "eval-plan.json"), "{}");
+    await writeFile(path.join(root, "tsconfig.tsbuildinfo"), "{}");
+    await writeFile(path.join(root, "index.html"), "<!doctype html>");
+    assert.equal(await inspectTree(root), 1);
+    await assert.rejects(inspectTree(root, true), /Prohibited publication path/);
+  } finally { await rm(root, { recursive: true, force: true }); }
 });
 
 test("export copies only four decks, writes byte-identical aliases, and rejects contamination", async () => {

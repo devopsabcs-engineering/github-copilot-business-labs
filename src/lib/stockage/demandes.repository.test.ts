@@ -85,9 +85,9 @@ describe("DemandesRepository", () => {
 
     await expect(
       repository.mettreAJour(versionLocale, originale.dateModification),
-    ).rejects.toMatchObject<Partial<ErreurStockageLocal>>({
+    ).rejects.toMatchObject({
       code: "CONFLIT_MODIFICATION",
-    });
+    } satisfies Partial<ErreurStockageLocal>);
     await expect(repository.lire(ID_DEMANDE)).resolves.toEqual(versionAutreOnglet);
   });
 
