@@ -1,0 +1,1296 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Outlines 6 0 R /PageMode /UseOutlines /Lang (fr-CA) /MarkInfo << /Marked true >> /StructTreeRoot 7 0 R /ViewerPreferences << /DisplayDocTitle true >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 35 /Kids [9 0 R 14 0 R 19 0 R 24 0 R 29 0 R 34 0 R 39 0 R 44 0 R 49 0 R 54 0 R 59 0 R 64 0 R 69 0 R 74 0 R 79 0 R 84 0 R 89 0 R 94 0 R 99 0 R 104 0 R 109 0 R 114 0 R 119 0 R 124 0 R 129 0 R 134 0 R 139 0 R 144 0 R 149 0 R 154 0 R 159 0 R 164 0 R 169 0 R 174 0 R 179 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Title (Fondamentaux de GitHub Copilot Business) /Author (GitHub Copilot Business Fundamentals contributors) /Subject (Governance-aware course, 2026-10-14) /Keywords (GitHub Copilot Business, governance, lab, fr-CA) /Creator (generate-course-decks.mjs) /Producer (Node.js deterministic PDF writer) /CreationDate (D:20261014000000Z) /ModDate (D:20261014000000Z) >>
+endobj
+6 0 obj
+<< /Type /Outlines /First 12 0 R /Last 182 0 R /Count 35 >>
+endobj
+7 0 obj
+<< /Type /StructTreeRoot /K [13 0 R 18 0 R 23 0 R 28 0 R 33 0 R 38 0 R 43 0 R 48 0 R 53 0 R 58 0 R 63 0 R 68 0 R 73 0 R 78 0 R 83 0 R 88 0 R 93 0 R 98 0 R 103 0 R 108 0 R 113 0 R 118 0 R 123 0 R 128 0 R 133 0 R 138 0 R 143 0 R 148 0 R 153 0 R 158 0 R 163 0 R 168 0 R 173 0 R 178 0 R 183 0 R] /ParentTree 8 0 R /ParentTreeNextKey 35 >>
+endobj
+8 0 obj
+<< /Nums [0 [13 0 R] 1 [18 0 R] 2 [23 0 R] 3 [28 0 R] 4 [33 0 R] 5 [38 0 R] 6 [43 0 R] 7 [48 0 R] 8 [53 0 R] 9 [58 0 R] 10 [63 0 R] 11 [68 0 R] 12 [73 0 R] 13 [78 0 R] 14 [83 0 R] 15 [88 0 R] 16 [93 0 R] 17 [98 0 R] 18 [103 0 R] 19 [108 0 R] 20 [113 0 R] 21 [118 0 R] 22 [123 0 R] 23 [128 0 R] 24 [133 0 R] 25 [138 0 R] 26 [143 0 R] 27 [148 0 R] 28 [153 0 R] 29 [158 0 R] 30 [163 0 R] 31 [168 0 R] 32 [173 0 R] 33 [178 0 R] 34 [183 0 R]] >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R /Annots [11 0 R] /StructParents 0 /Tabs /S >>
+endobj
+10 0 obj
+<< /Length 641 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (OPEN) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Fondamentaux de GitHub Copilot Business) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Une approche ax\351e sur la gouvernance, de l'assistance \340) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  une livraison responsable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Version du pr\351sentateur 1.0.0 | 2026-10-14) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (OPEN-001 | Fran\347ais \(Canada\) | 2026-10-14 | 1/35) Tj ET
+EMC
+endstream
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [0 0 0 0] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> >>
+endobj
+12 0 obj
+<< /Title (OPEN-001 | Fondamentaux de GitHub Copilot Business) /Parent 6 0 R  /Next 17 0 R /Dest [9 0 R /Fit] >>
+endobj
+13 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 9 0 R /K 0 /T (Fondamentaux de GitHub Copilot Business) /Lang (fr-CA) >>
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R /Annots [16 0 R] /StructParents 1 /Tabs /S >>
+endobj
+15 0 obj
+<< /Length 988 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (OPEN) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Public, programme et rythme d'apprentissage) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 D\351veloppeurs, responsables techniques, administrateurs,) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  partenaires de s\351curit\351 et responsables de l'adoption) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Apprendre un concept durable, le mettre en pratique dans) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  le d\351p\364t, puis consigner la preuve) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Pr\351voir environ 3 heures, plus le temps facultatif pour) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  l'agent infonuagique) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (OPEN-002 | Fran\347ais \(Canada\) | 2026-10-14 | 2/35) Tj ET
+EMC
+endstream
+endobj
+16 0 obj
+<< /Type /Annot /Subtype /Link /Rect [0 0 0 0] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> >>
+endobj
+17 0 obj
+<< /Title (OPEN-002 | Public, programme et rythme d'apprentissage) /Parent 6 0 R /Prev 12 0 R /Next 22 0 R /Dest [14 0 R /Fit] >>
+endobj
+18 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 14 0 R /K 0 /T (Public, programme et rythme d'apprentissage) /Lang (fr-CA) >>
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R /Annots [21 0 R] /StructParents 2 /Tabs /S >>
+endobj
+20 0 obj
+<< /Length 922 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (OPEN) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Sept r\351sultats, une seule piste de preuves) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 \311tablir la limite g\351r\351e et choisir un contexte v\351rifiable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (\225 Utiliser d\351lib\351r\351ment les suggestions, la conversation, la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (  modification et le mode agent) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (\225 D\351l\351guer de fa\347on responsable, personnaliser selon le) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  moindre privil\350ge et mesurer l'adoption avec prudence) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (OPEN-003 | Fran\347ais \(Canada\) | 2026-10-14 | 3/35) Tj ET
+EMC
+endstream
+endobj
+21 0 obj
+<< /Type /Annot /Subtype /Link /Rect [0 0 0 0] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> >>
+endobj
+22 0 obj
+<< /Title (OPEN-003 | Sept r\351sultats, une seule piste de preuves) /Parent 6 0 R /Prev 17 0 R /Next 27 0 R /Dest [19 0 R /Fit] >>
+endobj
+23 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 19 0 R /K 0 /T (Sept r\351sultats, une seule piste de preuves) /Lang (fr-CA) >>
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 25 0 R /Annots [26 0 R] /StructParents 3 /Tabs /S >>
+endobj
+25 0 obj
+<< /Length 1102 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (OPEN) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Pr\351parer l'environnement d'apprentissage) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Utiliser une version r\351cente de VS Code, l'extension) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  Copilot et le compte GitHub sous licence) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Cloner ce d\351p\364t et installer les d\351pendances avant la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  s\351ance) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Utiliser uniquement des donn\351es fictives; le prototype de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  subvention demeure local et non officiel) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E07) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-00) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (OPEN-004 | Fran\347ais \(Canada\) | 2026-10-14 | 4/35) Tj ET
+EMC
+endstream
+endobj
+26 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-00) >> /Contents (/lab/fr#lab-00) >>
+endobj
+27 0 obj
+<< /Title (OPEN-004 | Pr\351parer l'environnement d'apprentissage) /Parent 6 0 R /Prev 22 0 R /Next 32 0 R /Dest [24 0 R /Fit] >>
+endobj
+28 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 24 0 R /K 0 /T (Pr\351parer l'environnement d'apprentissage) /Lang (fr-CA) >>
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 30 0 R /Annots [31 0 R] /StructParents 4 /Tabs /S >>
+endobj
+30 0 obj
+<< /Length 1059 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (MBOUND) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Contexte du forfait : la capacit\351 suit l'acc\350s g\351r\351) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Business centre l'acc\350s, les strat\351gies et les rapports de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  l'organisation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Enterprise exige GitHub Enterprise Cloud et comprend les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  capacit\351s Business) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Copilot n'est pas offert actuellement pour GitHub) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  Enterprise Server; rev\351rifier avant la s\351ance) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E01, E02, E03, E05) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (MBOUND-001 | Fran\347ais \(Canada\) | 2026-10-14 | 5/35) Tj ET
+EMC
+endstream
+endobj
+31 0 obj
+<< /Type /Annot /Subtype /Link /Rect [0 0 0 0] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> >>
+endobj
+32 0 obj
+<< /Title (MBOUND-001 | Contexte du forfait : la capacit\351 suit l'acc\350s g\351r\351) /Parent 6 0 R /Prev 27 0 R /Next 37 0 R /Dest [29 0 R /Fit] >>
+endobj
+33 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 29 0 R /K 0 /T (Contexte du forfait : la capacit\351 suit l'acc\350s g\351r\351) /Lang (fr-CA) >>
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 35 0 R /Annots [36 0 R] /StructParents 5 /Tabs /S >>
+endobj
+35 0 obj
+<< /Length 1068 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (MBOUND) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Commencer par une limite de confiance g\351r\351e) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Confirmer le poste, la strat\351gie de l'organisation, les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  surfaces approuv\351es et les permissions du d\351p\364t) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Utiliser la plus petite port\351e utile de fichiers et) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  d'outils) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Garder les secrets, les identifiants et les vraies donn\351es) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  de demandeurs hors des requ\352tes et de l'historique) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-00) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (MBOUND-002 | Fran\347ais \(Canada\) | 2026-10-14 | 6/35) Tj ET
+EMC
+endstream
+endobj
+36 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-00) >> /Contents (/lab/fr#lab-00) >>
+endobj
+37 0 obj
+<< /Title (MBOUND-002 | Commencer par une limite de confiance g\351r\351e) /Parent 6 0 R /Prev 32 0 R /Next 42 0 R /Dest [34 0 R /Fit] >>
+endobj
+38 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 34 0 R /K 0 /T (Commencer par une limite de confiance g\351r\351e) /Lang (fr-CA) >>
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 40 0 R /Annots [41 0 R] /StructParents 6 /Tabs /S >>
+endobj
+40 0 obj
+<< /Length 1230 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (RESP) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Traiter chaque r\351sultat comme une hypoth\350se) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 V\351rifier l'exactitude, la s\351curit\351, les licences, la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  confidentialit\351, l'accessibilit\351 et les normes de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (  l'organisation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (\225 Demander des preuves, examiner la source et ex\351cuter la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  validation utile la plus cibl\351e) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (\225 L'approbation humaine demeure requise pour les commandes,) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  les flux, les fusions et les d\351ploiements) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E41, E42) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-01) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (RESP-001 | Fran\347ais \(Canada\) | 2026-10-14 | 7/35) Tj ET
+EMC
+endstream
+endobj
+41 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-01) >> /Contents (/lab/fr#lab-01) >>
+endobj
+42 0 obj
+<< /Title (RESP-001 | Traiter chaque r\351sultat comme une hypoth\350se) /Parent 6 0 R /Prev 37 0 R /Next 47 0 R /Dest [39 0 R /Fit] >>
+endobj
+43 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 39 0 R /K 0 /T (Traiter chaque r\351sultat comme une hypoth\350se) /Lang (fr-CA) >>
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 45 0 R /Annots [46 0 R] /StructParents 7 /Tabs /S >>
+endobj
+45 0 obj
+<< /Length 932 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (RESP) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Formuler une requ\352te pour obtenir un r\351sultat v\351rifiable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Objectif : nommer le changement observable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (\225 Contexte : indiquer les fichiers, symboles, contraintes et) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (  exemples exacts) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (\225 Preuve : demander les tests, diagnostics, diff\351rences et) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  incertitudes d\351clar\351es) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-01) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (RESP-002 | Fran\347ais \(Canada\) | 2026-10-14 | 8/35) Tj ET
+EMC
+endstream
+endobj
+46 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-01) >> /Contents (/lab/fr#lab-01) >>
+endobj
+47 0 obj
+<< /Title (RESP-002 | Formuler une requ\352te pour obtenir un r\351sultat v\351rifiable) /Parent 6 0 R /Prev 42 0 R /Next 52 0 R /Dest [44 0 R /Fit] >>
+endobj
+48 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 44 0 R /K 0 /T (Formuler une requ\352te pour obtenir un r\351sultat v\351rifiable) /Lang (fr-CA) >>
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 50 0 R /Annots [51 0 R] /StructParents 8 /Tabs /S >>
+endobj
+50 0 obj
+<< /Length 1054 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (FLOW) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Choisir le mode utile le moins autonome) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Suggestions pour une suite locale; conversation pour les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  explications et les options) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Modification pour des changements cibl\351s; mode agent pour) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  un travail it\351ratif en plusieurs \351tapes) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Agent infonuagique pour un travail asynchrone d\351limit\351,) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  r\351vis\351 dans une demande de tirage) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E08, E09) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (FLOW-001 | Fran\347ais \(Canada\) | 2026-10-14 | 9/35) Tj ET
+EMC
+endstream
+endobj
+51 0 obj
+<< /Type /Annot /Subtype /Link /Rect [0 0 0 0] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> >>
+endobj
+52 0 obj
+<< /Title (FLOW-001 | Choisir le mode utile le moins autonome) /Parent 6 0 R /Prev 47 0 R /Next 57 0 R /Dest [49 0 R /Fit] >>
+endobj
+53 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 49 0 R /K 0 /T (Choisir le mode utile le moins autonome) /Lang (fr-CA) >>
+endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 55 0 R /Annots [56 0 R] /StructParents 9 /Tabs /S >>
+endobj
+55 0 obj
+<< /Length 938 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (FLOW) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Suggestions : garder la d\351cision d'acceptation locale) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Exprimer l'intention dans le code voisin, les types, les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  tests et les noms) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Accepter seulement la partie utile et refuser les \351carts) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  qui semblent plausibles) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Ex\351cuter le test cibl\351 avant d'\351largir le changement) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-02) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (FLOW-002 | Fran\347ais \(Canada\) | 2026-10-14 | 10/35) Tj ET
+EMC
+endstream
+endobj
+56 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-02) >> /Contents (/lab/fr#lab-02) >>
+endobj
+57 0 obj
+<< /Title (FLOW-002 | Suggestions : garder la d\351cision d'acceptation locale) /Parent 6 0 R /Prev 52 0 R /Next 62 0 R /Dest [54 0 R /Fit] >>
+endobj
+58 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 54 0 R /K 0 /T (Suggestions : garder la d\351cision d'acceptation locale) /Lang (fr-CA) >>
+endobj
+59 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 60 0 R /Annots [61 0 R] /StructParents 10 /Tabs /S >>
+endobj
+60 0 obj
+<< /Length 1011 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (FLOW) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Conversation : expliquer, comparer, puis v\351rifier) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 S\351lectionner la plus petite surface de code pouvant) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  r\351pondre \340 la question) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Demander les hypoth\350ses, les options et un contr\364le) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  r\351futable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Comparer la r\351ponse au code, \340 la documentation et aux) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  preuves d'ex\351cution) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-02) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (FLOW-003 | Fran\347ais \(Canada\) | 2026-10-14 | 11/35) Tj ET
+EMC
+endstream
+endobj
+61 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-02) >> /Contents (/lab/fr#lab-02) >>
+endobj
+62 0 obj
+<< /Title (FLOW-003 | Conversation : expliquer, comparer, puis v\351rifier) /Parent 6 0 R /Prev 57 0 R /Next 67 0 R /Dest [59 0 R /Fit] >>
+endobj
+63 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 59 0 R /K 0 /T (Conversation : expliquer, comparer, puis v\351rifier) /Lang (fr-CA) >>
+endobj
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 65 0 R /Annots [66 0 R] /StructParents 11 /Tabs /S >>
+endobj
+65 0 obj
+<< /Length 918 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (FLOW) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Flux de modification : d\351limiter avant d'appliquer) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Pr\351ciser les fichiers modifiables et le comportement qui) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  doit rester stable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 R\351viser chaque bloc; ne pas accepter les nettoyages sans) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  rapport) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Compiler ou tester imm\351diatement la partie touch\351e) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-03) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (FLOW-004 | Fran\347ais \(Canada\) | 2026-10-14 | 12/35) Tj ET
+EMC
+endstream
+endobj
+66 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-03) >> /Contents (/lab/fr#lab-03) >>
+endobj
+67 0 obj
+<< /Title (FLOW-004 | Flux de modification : d\351limiter avant d'appliquer) /Parent 6 0 R /Prev 62 0 R /Next 72 0 R /Dest [64 0 R /Fit] >>
+endobj
+68 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 64 0 R /K 0 /T (Flux de modification : d\351limiter avant d'appliquer) /Lang (fr-CA) >>
+endobj
+69 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 70 0 R /Annots [71 0 R] /StructParents 12 /Tabs /S >>
+endobj
+70 0 obj
+<< /Length 1090 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (FLOW) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Mode agent : accorder les outils une limite \340 la fois) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 D\351crire le r\351sultat, les contraintes et les conditions) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  d'arr\352t) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 R\351viser les commandes propos\351es et surveiller) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  l'\351largissement de la port\351e) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Exiger des diff\351rences propres et des preuves ex\351cutables) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  avant de terminer) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E08, E42) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-06) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (FLOW-005 | Fran\347ais \(Canada\) | 2026-10-14 | 13/35) Tj ET
+EMC
+endstream
+endobj
+71 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-06) >> /Contents (/lab/fr#lab-06) >>
+endobj
+72 0 obj
+<< /Title (FLOW-005 | Mode agent : accorder les outils une limite \340 la fois) /Parent 6 0 R /Prev 67 0 R /Next 77 0 R /Dest [69 0 R /Fit] >>
+endobj
+73 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 69 0 R /K 0 /T (Mode agent : accorder les outils une limite \340 la fois) /Lang (fr-CA) >>
+endobj
+74 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 75 0 R /Annots [76 0 R] /StructParents 13 /Tabs /S >>
+endobj
+75 0 obj
+<< /Length 1220 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (FLOW) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (D\351l\351gation infonuagique : d\351finir une t\342che r\351visable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 D\351l\351guer un travail d\351limit\351 avec des crit\350res) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  d'acceptation et le contexte du d\351p\364t) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Au 2026-10-14, chaque t\342che est limit\351e \340 un d\351p\364t, une) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  branche, une demande de tirage et une s\351ance de 59 minutes) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Ne jamais laisser l'ex\351cution asynchrone contourner la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  r\351vision ou les contr\364les de d\351ploiement requis) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E09, E10, E11) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-07) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (FLOW-006 | Fran\347ais \(Canada\) | 2026-10-14 | 14/35) Tj ET
+EMC
+endstream
+endobj
+76 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-07) >> /Contents (/lab/fr#lab-07) >>
+endobj
+77 0 obj
+<< /Title (FLOW-006 | D\351l\351gation infonuagique : d\351finir une t\342che r\351visable) /Parent 6 0 R /Prev 72 0 R /Next 82 0 R /Dest [74 0 R /Fit] >>
+endobj
+78 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 74 0 R /K 0 /T (D\351l\351gation infonuagique : d\351finir une t\342che r\351visable) /Lang (fr-CA) >>
+endobj
+79 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 80 0 R /Annots [81 0 R] /StructParents 14 /Tabs /S >>
+endobj
+80 0 obj
+<< /Length 1131 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (FLOW) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Boucle de r\351vision : la preuve avant la fusion) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Lire la d\351finition de la t\342che, le journal de session, les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  validations et toutes les diff\351rences) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Ex\351cuter les tests et contr\364les de s\351curit\351 ind\351pendamment) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  du r\351sum\351 de l'agent) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Consigner le jugement humain ayant accept\351, corrig\351 ou) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  refus\351 le travail) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E11, E42) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-07) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (FLOW-007 | Fran\347ais \(Canada\) | 2026-10-14 | 15/35) Tj ET
+EMC
+endstream
+endobj
+81 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-07) >> /Contents (/lab/fr#lab-07) >>
+endobj
+82 0 obj
+<< /Title (FLOW-007 | Boucle de r\351vision : la preuve avant la fusion) /Parent 6 0 R /Prev 77 0 R /Next 87 0 R /Dest [79 0 R /Fit] >>
+endobj
+83 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 79 0 R /K 0 /T (Boucle de r\351vision : la preuve avant la fusion) /Lang (fr-CA) >>
+endobj
+84 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 85 0 R /Annots [86 0 R] /StructParents 15 /Tabs /S >>
+endobj
+85 0 obj
+<< /Length 1286 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (CUSTOM) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (La personnalisation est un contrat en couches) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Les instructions d\351finissent des normes automatiques; les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  fichiers de requ\352te regroupent les demandes r\351p\351tables) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Les agents personnalis\351s sp\351cialisent les outils et le) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  contexte; les comp\351tences chargent les proc\351dures) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  pertinentes au besoin) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (\225 Les points d'ancrage ex\351cutent des commandes) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  d\351terministes; MCP relie les capacit\351s externes approuv\351es) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E16, E17, E18) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-06) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (CUSTOM-001 | Fran\347ais \(Canada\) | 2026-10-14 | 16/35) Tj ET
+EMC
+endstream
+endobj
+86 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-06) >> /Contents (/lab/fr#lab-06) >>
+endobj
+87 0 obj
+<< /Title (CUSTOM-001 | La personnalisation est un contrat en couches) /Parent 6 0 R /Prev 82 0 R /Next 92 0 R /Dest [84 0 R /Fit] >>
+endobj
+88 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 84 0 R /K 0 /T (La personnalisation est un contrat en couches) /Lang (fr-CA) >>
+endobj
+89 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 90 0 R /Annots [91 0 R] /StructParents 16 /Tabs /S >>
+endobj
+90 0 obj
+<< /Length 1205 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (CUSTOM) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Les instructions et fichiers de requ\352te rendent) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (l'intention r\351visable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Garder les normes ind\351pendantes de l'organisation pr\350s du) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  d\351p\364t) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Utiliser des instructions propres \340 un chemin seulement) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  lorsque leur port\351e est claire) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 R\351diger les requ\352tes avec les entr\351es, le format de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  sortie, la validation et les conditions d'arr\352t) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E16) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-06) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (CUSTOM-002 | Fran\347ais \(Canada\) | 2026-10-14 | 17/35) Tj ET
+EMC
+endstream
+endobj
+91 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-06) >> /Contents (/lab/fr#lab-06) >>
+endobj
+92 0 obj
+<< /Title (CUSTOM-002 | Les instructions et fichiers de requ\352te rendent l'intention r\351visable) /Parent 6 0 R /Prev 87 0 R /Next 97 0 R /Dest [89 0 R /Fit] >>
+endobj
+93 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 89 0 R /K 0 /T (Les instructions et fichiers de requ\352te rendent l'intention r\351visable) /Lang (fr-CA) >>
+endobj
+94 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 95 0 R /Annots [96 0 R] /StructParents 17 /Tabs /S >>
+endobj
+95 0 obj
+<< /Length 1254 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (CUSTOM) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Les comp\351tences et points d'ancrage s\351parent jugement et) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (d\351terminisme) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Utiliser une comp\351tence pour le contexte, le processus,) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  les scripts et les ressources r\351utilisables) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Utiliser un point d'ancrage lorsqu'une commande doit) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  s'ex\351cuter de fa\347on pr\351visible \340 une \351tape du cycle) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 R\351viser les deux comme des \351l\351ments ex\351cutables de la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  cha\356ne d'approvisionnement) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E16, E17) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-06) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (CUSTOM-003 | Fran\347ais \(Canada\) | 2026-10-14 | 18/35) Tj ET
+EMC
+endstream
+endobj
+96 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-06) >> /Contents (/lab/fr#lab-06) >>
+endobj
+97 0 obj
+<< /Title (CUSTOM-003 | Les comp\351tences et points d'ancrage s\351parent jugement et d\351terminisme) /Parent 6 0 R /Prev 92 0 R /Next 102 0 R /Dest [94 0 R /Fit] >>
+endobj
+98 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 94 0 R /K 0 /T (Les comp\351tences et points d'ancrage s\351parent jugement et d\351terminisme) /Lang (fr-CA) >>
+endobj
+99 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 100 0 R /Annots [101 0 R] /StructParents 18 /Tabs /S >>
+endobj
+100 0 obj
+<< /Length 1244 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (CUSTOM) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (MCP : une port\351e utile exige le moindre privil\350ge) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Approuver explicitement les serveurs, outils, sources de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  donn\351es et chemins d'authentification) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 La port\351e et les valeurs par d\351faut de la strat\351gie MCP) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  g\351r\351e d\351pendent de la source de l'acc\350s Business ou) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  Enterprise) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (\225 Traiter le contenu retourn\351 et les instructions d'outil) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  comme non fiables avant r\351vision) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E18, E19) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-06) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (CUSTOM-004 | Fran\347ais \(Canada\) | 2026-10-14 | 19/35) Tj ET
+EMC
+endstream
+endobj
+101 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-06) >> /Contents (/lab/fr#lab-06) >>
+endobj
+102 0 obj
+<< /Title (CUSTOM-004 | MCP : une port\351e utile exige le moindre privil\350ge) /Parent 6 0 R /Prev 97 0 R /Next 107 0 R /Dest [99 0 R /Fit] >>
+endobj
+103 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 99 0 R /K 0 /T (MCP : une port\351e utile exige le moindre privil\350ge) /Lang (fr-CA) >>
+endobj
+104 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 105 0 R /Annots [106 0 R] /StructParents 19 /Tabs /S >>
+endobj
+105 0 obj
+<< /Length 1253 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (CUSTOM) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Choix du mod\350le : ad\351quation, strat\351gie, co\373t, puis) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (validation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 La s\351lection automatique est dynamique et ne d\351signe pas) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  un mod\350le fixe) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Les mod\350les visibles d\351pendent encore du forfait, de la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  strat\351gie, du client, du d\351ploiement et des conditions du) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  fournisseur) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (\225 La strat\351gie d'organisation r\351git le changement de mod\350le) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  et l'utilisation de cl\351s personnelles) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E12, E13, E14, E15) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (CUSTOM-005 | Fran\347ais \(Canada\) | 2026-10-14 | 20/35) Tj ET
+EMC
+endstream
+endobj
+106 0 obj
+<< /Type /Annot /Subtype /Link /Rect [0 0 0 0] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> >>
+endobj
+107 0 obj
+<< /Title (CUSTOM-005 | Choix du mod\350le : ad\351quation, strat\351gie, co\373t, puis validation) /Parent 6 0 R /Prev 102 0 R /Next 112 0 R /Dest [104 0 R /Fit] >>
+endobj
+108 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 104 0 R /K 0 /T (Choix du mod\350le : ad\351quation, strat\351gie, co\373t, puis validation) /Lang (fr-CA) >>
+endobj
+109 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 110 0 R /Annots [111 0 R] /StructParents 20 /Tabs /S >>
+endobj
+110 0 obj
+<< /Length 1345 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (ADOPT) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (L'administration d\351finit la limite d'utilisation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 La facturation commence \340 l'attribution de l'acc\350s; les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  attributions en cours de cycle sont calcul\351es au prorata) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Les m\351thodes d'attribution et la port\351e des strat\351gies) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  d'entreprise varient selon le forfait, la source d'acc\350s) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  et la d\351l\351gation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (\225 R\351gir les agents, les mod\350les, les budgets de cr\351dits IA,) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  la confidentialit\351, les fonctionnalit\351s et MCP sans) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 190 Tm (  pr\351sumer de valeurs uniformes) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E19, E20, E30, E36, E37, E38, E40) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (ADOPT-001 | Fran\347ais \(Canada\) | 2026-10-14 | 21/35) Tj ET
+EMC
+endstream
+endobj
+111 0 obj
+<< /Type /Annot /Subtype /Link /Rect [0 0 0 0] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> >>
+endobj
+112 0 obj
+<< /Title (ADOPT-001 | L'administration d\351finit la limite d'utilisation) /Parent 6 0 R /Prev 107 0 R /Next 117 0 R /Dest [109 0 R /Fit] >>
+endobj
+113 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 109 0 R /K 0 /T (L'administration d\351finit la limite d'utilisation) /Lang (fr-CA) >>
+endobj
+114 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 115 0 R /Annots [116 0 R] /StructParents 21 /Tabs /S >>
+endobj
+115 0 obj
+<< /Length 1136 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (ADOPT) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (L'exclusion de contenu est un contr\364le partiel) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 La couverture varie selon la fonctionnalit\351 et le client;) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  les modes Modification et Agent ont des limites) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Le contenu permis peut r\351v\351ler indirectement la s\351mantique) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  exclue) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Conserver les contr\364les d'acc\350s, la gestion des secrets,) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  l'analyse et le jugement des d\351veloppeurs) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E23, E39) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-05) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (ADOPT-002 | Fran\347ais \(Canada\) | 2026-10-14 | 22/35) Tj ET
+EMC
+endstream
+endobj
+116 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-05) >> /Contents (/lab/fr#lab-05) >>
+endobj
+117 0 obj
+<< /Title (ADOPT-002 | L'exclusion de contenu est un contr\364le partiel) /Parent 6 0 R /Prev 112 0 R /Next 122 0 R /Dest [114 0 R /Fit] >>
+endobj
+118 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 114 0 R /K 0 /T (L'exclusion de contenu est un contr\364le partiel) /Lang (fr-CA) >>
+endobj
+119 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 120 0 R /Annots [121 0 R] /StructParents 22 /Tabs /S >>
+endobj
+120 0 obj
+<< /Length 1507 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (ADOPT) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Les mesures orientent les questions, pas les liens de) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (causalit\351) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 La couverture comprend certaines activit\351s dans les EDI,) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  l'interface de ligne de commande et les agents, mais pas) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (  toutes les surfaces Copilot) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (\225 Pr\351voir deux jours UTC complets et v\351rifier l'attribution) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  par organisation ainsi que la t\351l\351m\351trie des clients \340) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  jour) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (\225 L'incident du 2026-10-06 confirme que l'activit\351) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 190 Tm (  historique touch\351e des agents ne peut pas \352tre) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 165 Tm (  reconstitu\351e) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E20, E21, E22, E31) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-07) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (ADOPT-003 | Fran\347ais \(Canada\) | 2026-10-14 | 23/35) Tj ET
+EMC
+endstream
+endobj
+121 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-07) >> /Contents (/lab/fr#lab-07) >>
+endobj
+122 0 obj
+<< /Title (ADOPT-003 | Les mesures orientent les questions, pas les liens de causalit\351) /Parent 6 0 R /Prev 117 0 R /Next 127 0 R /Dest [119 0 R /Fit] >>
+endobj
+123 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 119 0 R /K 0 /T (Les mesures orientent les questions, pas les liens de causalit\351) /Lang (fr-CA) >>
+endobj
+124 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 125 0 R /Annots [126 0 R] /StructParents 23 /Tabs /S >>
+endobj
+125 0 obj
+<< /Length 935 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 00 | \311tablir la limite de confiance g\351r\351e) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Examiner la limite des donn\351es locales et l'avis de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  s\351curit\351 permanent) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Ex\351cuter les tests cibl\351s de la fondation bilingue) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (\225 Point de contr\364le : nommer le contexte s\373r et les donn\351es) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  interdites) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-00) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-00 | Fran\347ais \(Canada\) | 2026-10-14 | 24/35) Tj ET
+EMC
+endstream
+endobj
+126 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-00) >> /Contents (/lab/fr#lab-00) >>
+endobj
+127 0 obj
+<< /Title (LAB-00 | Laboratoire 00 | \311tablir la limite de confiance g\351r\351e) /Parent 6 0 R /Prev 122 0 R /Next 132 0 R /Dest [124 0 R /Fit] >>
+endobj
+128 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 124 0 R /K 0 /T (Laboratoire 00 | \311tablir la limite de confiance g\351r\351e) /Lang (fr-CA) >>
+endobj
+129 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 130 0 R /Annots [131 0 R] /StructParents 24 /Tabs /S >>
+endobj
+130 0 obj
+<< /Length 972 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 01 | Fournir un contexte de d\351p\364t v\351rifiable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 S\351lectionner les fichiers exacts et demander une) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  explication fond\351e sur la source) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Distinguer les faits observ\351s des hypoth\350ses) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (\225 Point de contr\364le : chaque affirmation importante poss\350de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  un rep\350re dans le code ou la documentation) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-01) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-01 | Fran\347ais \(Canada\) | 2026-10-14 | 25/35) Tj ET
+EMC
+endstream
+endobj
+131 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-01) >> /Contents (/lab/fr#lab-01) >>
+endobj
+132 0 obj
+<< /Title (LAB-01 | Laboratoire 01 | Fournir un contexte de d\351p\364t v\351rifiable) /Parent 6 0 R /Prev 127 0 R /Next 137 0 R /Dest [129 0 R /Fit] >>
+endobj
+133 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 129 0 R /K 0 /T (Laboratoire 01 | Fournir un contexte de d\351p\364t v\351rifiable) /Lang (fr-CA) >>
+endobj
+134 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 135 0 R /Annots [136 0 R] /StructParents 25 /Tabs /S >>
+endobj
+135 0 obj
+<< /Length 1107 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 02 | Utiliser les suggestions et la) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (conversation pour des tests cibl\351s) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Utiliser les types et tests voisins pour encadrer une) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  suggestion) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Comparer les conseils de la conversation \340) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  l'impl\351mentation r\351elle) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Point de contr\364le : les tests cibl\351s r\351ussissent et les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  changements non fond\351s sont refus\351s) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-02) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-02 | Fran\347ais \(Canada\) | 2026-10-14 | 26/35) Tj ET
+EMC
+endstream
+endobj
+136 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-02) >> /Contents (/lab/fr#lab-02) >>
+endobj
+137 0 obj
+<< /Title (LAB-02 | Laboratoire 02 | Utiliser les suggestions et la conversation pour des tests cibl\351s) /Parent 6 0 R /Prev 132 0 R /Next 142 0 R /Dest [134 0 R /Fit] >>
+endobj
+138 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 134 0 R /K 0 /T (Laboratoire 02 | Utiliser les suggestions et la conversation pour des tests cibl\351s) /Lang (fr-CA) >>
+endobj
+139 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 140 0 R /Annots [141 0 R] /StructParents 26 /Tabs /S >>
+endobj
+140 0 obj
+<< /Length 976 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 03 | Planifier et valider une petite) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (restructuration) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 D\351finir les invariants et les fichiers permis avant la) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  modification) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 R\351viser le plan et chaque bloc appliqu\351) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (\225 Point de contr\364le : le comportement demeure stable sous) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  validation cibl\351e) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-03) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-03 | Fran\347ais \(Canada\) | 2026-10-14 | 27/35) Tj ET
+EMC
+endstream
+endobj
+141 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-03) >> /Contents (/lab/fr#lab-03) >>
+endobj
+142 0 obj
+<< /Title (LAB-03 | Laboratoire 03 | Planifier et valider une petite restructuration) /Parent 6 0 R /Prev 137 0 R /Next 147 0 R /Dest [139 0 R /Fit] >>
+endobj
+143 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 139 0 R /K 0 /T (Laboratoire 03 | Planifier et valider une petite restructuration) /Lang (fr-CA) >>
+endobj
+144 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 145 0 R /Annots [146 0 R] /StructParents 27 /Tabs /S >>
+endobj
+145 0 obj
+<< /Length 1062 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 04 | G\351n\351rer un test de navigateur accessible) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Demander des preuves au clavier, s\351mantiques et sur \351cran) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  \351troit) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Examiner les s\351lecteurs selon le sens pour l'utilisateur) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  plut\364t que le d\351tail d'impl\351mentation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Point de contr\364le : le test \351choue pour le d\351faut vis\351 et) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  r\351ussit apr\350s correction) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-04) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-04 | Fran\347ais \(Canada\) | 2026-10-14 | 28/35) Tj ET
+EMC
+endstream
+endobj
+146 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-04) >> /Contents (/lab/fr#lab-04) >>
+endobj
+147 0 obj
+<< /Title (LAB-04 | Laboratoire 04 | G\351n\351rer un test de navigateur accessible) /Parent 6 0 R /Prev 142 0 R /Next 152 0 R /Dest [144 0 R /Fit] >>
+endobj
+148 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 144 0 R /K 0 /T (Laboratoire 04 | G\351n\351rer un test de navigateur accessible) /Lang (fr-CA) >>
+endobj
+149 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 150 0 R /Annots [151 0 R] /StructParents 28 /Tabs /S >>
+endobj
+150 0 obj
+<< /Length 1302 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 05 | R\351viser la confidentialit\351 et le) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (traitement local des fichiers) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Suivre la s\351lection de PDF et IndexedDB sans donn\351es) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  r\351elles de demandeurs) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Remettre en question les affirmations trop larges sur) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  l'exclusion ou la conservation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Point de contr\364le : les \351nonc\351s de confidentialit\351) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  correspondent au code et aux modalit\351s actuelles de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  premi\350re partie) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E24, E25, E26) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-05) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-05 | Fran\347ais \(Canada\) | 2026-10-14 | 29/35) Tj ET
+EMC
+endstream
+endobj
+151 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-05) >> /Contents (/lab/fr#lab-05) >>
+endobj
+152 0 obj
+<< /Title (LAB-05 | Laboratoire 05 | R\351viser la confidentialit\351 et le traitement local des fichiers) /Parent 6 0 R /Prev 147 0 R /Next 157 0 R /Dest [149 0 R /Fit] >>
+endobj
+153 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 149 0 R /K 0 /T (Laboratoire 05 | R\351viser la confidentialit\351 et le traitement local des fichiers) /Lang (fr-CA) >>
+endobj
+154 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 155 0 R /Annots [156 0 R] /StructParents 29 /Tabs /S >>
+endobj
+155 0 obj
+<< /Length 1155 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 06 | Utiliser le mode agent avec des) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (garde-fous explicites) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 D\351finir les limites de fichiers, de commandes et d'arr\352t) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  avant l'ex\351cution) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Approuver les outils progressivement et examiner chaque) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  changement) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Point de contr\364le : la preuve est compl\350te sans) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  \351largissement de la port\351e) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E08, E42) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-06) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-06 | Fran\347ais \(Canada\) | 2026-10-14 | 30/35) Tj ET
+EMC
+endstream
+endobj
+156 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-06) >> /Contents (/lab/fr#lab-06) >>
+endobj
+157 0 obj
+<< /Title (LAB-06 | Laboratoire 06 | Utiliser le mode agent avec des garde-fous explicites) /Parent 6 0 R /Prev 152 0 R /Next 162 0 R /Dest [154 0 R /Fit] >>
+endobj
+158 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 154 0 R /K 0 /T (Laboratoire 06 | Utiliser le mode agent avec des garde-fous explicites) /Lang (fr-CA) >>
+endobj
+159 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 160 0 R /Annots [161 0 R] /StructParents 30 /Tabs /S >>
+endobj
+160 0 obj
+<< /Length 1211 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Laboratoire 07 | D\351l\351guer, r\351viser et mesurer de fa\347on) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (responsable) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Utiliser la simulation lorsque l'agent infonuagique n'est) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  pas accessible) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 R\351viser la t\342che, les preuves de session, les changements) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  de la demande de tirage et les contr\364les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Point de contr\364le : proposer une action d'accompagnement) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  et un garde-fou \340 partir des preuves) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E09, E11, E22) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-07) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-07 | Fran\347ais \(Canada\) | 2026-10-14 | 31/35) Tj ET
+EMC
+endstream
+endobj
+161 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-07) >> /Contents (/lab/fr#lab-07) >>
+endobj
+162 0 obj
+<< /Title (LAB-07 | Laboratoire 07 | D\351l\351guer, r\351viser et mesurer de fa\347on responsable) /Parent 6 0 R /Prev 157 0 R /Next 167 0 R /Dest [159 0 R /Fit] >>
+endobj
+163 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 159 0 R /K 0 /T (Laboratoire 07 | D\351l\351guer, r\351viser et mesurer de fa\347on responsable) /Lang (fr-CA) >>
+endobj
+164 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 165 0 R /Annots [166 0 R] /StructParents 31 /Tabs /S >>
+endobj
+165 0 obj
+<< /Length 1066 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (LAB) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Projet synth\350se | De la requ\352te \340 la preuve r\351vis\351e) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 D\351finir un petit enjeu avec contraintes et crit\350res) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  d'acceptation) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Produire un changement r\351vis\351, des tests, des contr\364les de) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  s\351curit\351 et une personnalisation pertinente) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Expliquer ce qui a exig\351 un jugement humain et quelles) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  preuves appuient l'ach\350vement) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (/lab/fr#lab-cap) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (LAB-CAP | Fran\347ais \(Canada\) | 2026-10-14 | 32/35) Tj ET
+EMC
+endstream
+endobj
+166 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://devopsabcs-engineering.github.io/github-copilot-business-labs/lab/fr/#lab-cap) >> /Contents (/lab/fr#lab-cap) >>
+endobj
+167 0 obj
+<< /Title (LAB-CAP | Projet synth\350se | De la requ\352te \340 la preuve r\351vis\351e) /Parent 6 0 R /Prev 162 0 R /Next 172 0 R /Dest [164 0 R /Fit] >>
+endobj
+168 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 164 0 R /K 0 /T (Projet synth\350se | De la requ\352te \340 la preuve r\351vis\351e) /Lang (fr-CA) >>
+endobj
+169 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 170 0 R /Annots [171 0 R] /StructParents 32 /Tabs /S >>
+endobj
+170 0 obj
+<< /Length 1391 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (APPX) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Annexe dat\351e | Forfaits et contexte commercial) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (\(2026-10-14\)) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Business : 19 $ US par poste attribu\351 par mois; 1 900) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  cr\351dits IA par utilisateur par mois) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Enterprise : 39 $ US par poste attribu\351 par mois; 3 900) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  cr\351dits; les allocations regroup\351es ne sont pas report\351es) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (\225 Utilisation suppl\351mentaire : 0,01 $ US par cr\351dit IA) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (  calcul\351 selon les jetons; suggestions payantes illimit\351es;) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  v\351rifier le canal d'achat) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E03, E04, E40) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (https://docs.github.com/en/copilot/get-started/plans) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (APPX-001 | Fran\347ais \(Canada\) | 2026-10-14 | 33/35) Tj ET
+EMC
+endstream
+endobj
+171 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot/get-started/plans) >> /Contents (https://docs.github.com/en/copilot/get-started/plans) >>
+endobj
+172 0 obj
+<< /Title (APPX-001 | Annexe dat\351e | Forfaits et contexte commercial \(2026-10-14\)) /Parent 6 0 R /Prev 167 0 R /Next 177 0 R /Dest [169 0 R /Fit] >>
+endobj
+173 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 169 0 R /K 0 /T (Annexe dat\351e | Forfaits et contexte commercial \(2026-10-14\)) /Lang (fr-CA) >>
+endobj
+174 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 175 0 R /Annots [176 0 R] /StructParents 33 /Tabs /S >>
+endobj
+175 0 obj
+<< /Length 1519 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (APPX) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (Annexe dat\351e | Volatilit\351 des fonctionnalit\351s et mod\350les) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 439 Tm (\(2026-10-14\)) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 La prise en charge des EDI, les mod\350les, les aper\347us et) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  les limites de l'agent infonuagique peuvent changer) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Consulter les r\351f\351rences actuelles sur les) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  fonctionnalit\351s, les mod\350les, les retraits et les notes) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  des fournisseurs le jour de la s\351ance) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (\225 Aucune dur\351e exacte de conservation n'est affirm\351e;) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  v\351rifier le service, le canal d'achat, le fournisseur et) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 190 Tm (  le contrat) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E06, E10, E12, E26, E30, E32) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (https://docs.github.com/en/copilot/reference/copilot-feature-matrix) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (APPX-002 | Fran\347ais \(Canada\) | 2026-10-14 | 34/35) Tj ET
+EMC
+endstream
+endobj
+176 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot/reference/copilot-feature-matrix) >> /Contents (https://docs.github.com/en/copilot/reference/copilot-feature-matrix) >>
+endobj
+177 0 obj
+<< /Title (APPX-002 | Annexe dat\351e | Volatilit\351 des fonctionnalit\351s et mod\350les \(2026-10-14\)) /Parent 6 0 R /Prev 172 0 R /Next 182 0 R /Dest [174 0 R /Fit] >>
+endobj
+178 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 174 0 R /K 0 /T (Annexe dat\351e | Volatilit\351 des fonctionnalit\351s et mod\350les \(2026-10-14\)) /Lang (fr-CA) >>
+endobj
+179 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 180 0 R /Annots [181 0 R] /StructParents 34 /Tabs /S >>
+endobj
+180 0 obj
+<< /Length 1279 >>
+stream
+/P <</MCID 0>> BDC
+0.07 0.2 0.29 rg 0 532 960 8 re f
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 500 Tm (APPX) Tj ET
+BT 0.08 0.14 0.18 rg /F2 23 Tf 1 0 0 1 52 466 Tm (R\351f\351rences et responsabilit\351 de l'actualit\351) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 365 Tm (\225 Responsable du cours : forfaits, capacit\351s et aper\347us) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 340 Tm (  avant chaque version) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 315 Tm (\225 Responsables de la s\351curit\351 et de la confidentialit\351 :) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 290 Tm (  exclusions, agents, modalit\351s, Centre de confiance et) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 265 Tm (  conservation avant la s\351ance) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 240 Tm (\225 Responsable de l'adoption : couverture, d\351lai, attribution) Tj ET
+BT 0.08 0.14 0.18 rg /F1 15 Tf 1 0 0 1 72 215 Tm (  et exigences clientes avant les rapports) Tj ET
+BT 0.30 0.38 0.43 rg /F1 9 Tf 1 0 0 1 52 70 Tm (Sources: E20, E21, E22, E26, E31) Tj ET
+BT 0.09 0.42 0.53 rg /F2 10 Tf 1 0 0 1 52 48 Tm (https://docs.github.com/en/copilot) Tj ET
+BT 0.30 0.38 0.43 rg /F1 8 Tf 1 0 0 1 52 24 Tm (APPX-003 | Fran\347ais \(Canada\) | 2026-10-14 | 35/35) Tj ET
+EMC
+endstream
+endobj
+181 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 38 620 62] /Border [0 0 0] /A << /S /URI /URI (https://docs.github.com/en/copilot) >> /Contents (https://docs.github.com/en/copilot) >>
+endobj
+182 0 obj
+<< /Title (APPX-003 | R\351f\351rences et responsabilit\351 de l'actualit\351) /Parent 6 0 R /Prev 177 0 R  /Dest [179 0 R /Fit] >>
+endobj
+183 0 obj
+<< /Type /StructElem /S /Sect /P 7 0 R /Pg 179 0 R /K 0 /T (R\351f\351rences et responsabilit\351 de l'actualit\351) /Lang (fr-CA) >>
+endobj
+xref
+0 184
+0000000000 65535 f 
+0000000015 00000 n 
+0000000215 00000 n 
+0000000527 00000 n 
+0000000624 00000 n 
+0000000726 00000 n 
+0000001108 00000 n 
+0000001183 00000 n 
+0000001533 00000 n 
+0000001989 00000 n 
+0000002169 00000 n 
+0000002862 00000 n 
+0000003003 00000 n 
+0000003132 00000 n 
+0000003264 00000 n 
+0000003445 00000 n 
+0000004485 00000 n 
+0000004626 00000 n 
+0000004772 00000 n 
+0000004909 00000 n 
+0000005090 00000 n 
+0000006064 00000 n 
+0000006205 00000 n 
+0000006353 00000 n 
+0000006492 00000 n 
+0000006673 00000 n 
+0000007828 00000 n 
+0000008051 00000 n 
+0000008197 00000 n 
+0000008334 00000 n 
+0000008515 00000 n 
+0000009627 00000 n 
+0000009768 00000 n 
+0000009936 00000 n 
+0000010093 00000 n 
+0000010274 00000 n 
+0000011395 00000 n 
+0000011618 00000 n 
+0000011772 00000 n 
+0000011915 00000 n 
+0000012096 00000 n 
+0000013379 00000 n 
+0000013602 00000 n 
+0000013754 00000 n 
+0000013897 00000 n 
+0000014078 00000 n 
+0000015062 00000 n 
+0000015285 00000 n 
+0000015453 00000 n 
+0000015612 00000 n 
+0000015793 00000 n 
+0000016900 00000 n 
+0000017041 00000 n 
+0000017183 00000 n 
+0000017316 00000 n 
+0000017497 00000 n 
+0000018487 00000 n 
+0000018710 00000 n 
+0000018869 00000 n 
+0000019019 00000 n 
+0000019201 00000 n 
+0000020265 00000 n 
+0000020488 00000 n 
+0000020643 00000 n 
+0000020789 00000 n 
+0000020971 00000 n 
+0000021941 00000 n 
+0000022164 00000 n 
+0000022320 00000 n 
+0000022467 00000 n 
+0000022649 00000 n 
+0000023792 00000 n 
+0000024015 00000 n 
+0000024174 00000 n 
+0000024324 00000 n 
+0000024506 00000 n 
+0000025779 00000 n 
+0000026002 00000 n 
+0000026173 00000 n 
+0000026335 00000 n 
+0000026517 00000 n 
+0000027701 00000 n 
+0000027924 00000 n 
+0000028076 00000 n 
+0000028219 00000 n 
+0000028401 00000 n 
+0000029740 00000 n 
+0000029963 00000 n 
+0000030113 00000 n 
+0000030252 00000 n 
+0000030434 00000 n 
+0000031692 00000 n 
+0000031915 00000 n 
+0000032095 00000 n 
+0000032264 00000 n 
+0000032446 00000 n 
+0000033753 00000 n 
+0000033976 00000 n 
+0000034160 00000 n 
+0000034332 00000 n 
+0000034516 00000 n 
+0000035814 00000 n 
+0000036038 00000 n 
+0000036200 00000 n 
+0000036350 00000 n 
+0000036535 00000 n 
+0000037842 00000 n 
+0000037984 00000 n 
+0000038167 00000 n 
+0000038337 00000 n 
+0000038522 00000 n 
+0000039921 00000 n 
+0000040063 00000 n 
+0000040222 00000 n 
+0000040369 00000 n 
+0000040554 00000 n 
+0000041744 00000 n 
+0000041968 00000 n 
+0000042125 00000 n 
+0000042270 00000 n 
+0000042455 00000 n 
+0000044016 00000 n 
+0000044240 00000 n 
+0000044414 00000 n 
+0000044576 00000 n 
+0000044761 00000 n 
+0000045749 00000 n 
+0000045973 00000 n 
+0000046140 00000 n 
+0000046298 00000 n 
+0000046483 00000 n 
+0000047508 00000 n 
+0000047732 00000 n 
+0000047902 00000 n 
+0000048063 00000 n 
+0000048248 00000 n 
+0000049409 00000 n 
+0000049633 00000 n 
+0000049823 00000 n 
+0000050004 00000 n 
+0000050189 00000 n 
+0000051218 00000 n 
+0000051442 00000 n 
+0000051611 00000 n 
+0000051771 00000 n 
+0000051956 00000 n 
+0000053072 00000 n 
+0000053296 00000 n 
+0000053464 00000 n 
+0000053623 00000 n 
+0000053808 00000 n 
+0000055164 00000 n 
+0000055388 00000 n 
+0000055578 00000 n 
+0000055759 00000 n 
+0000055944 00000 n 
+0000057153 00000 n 
+0000057377 00000 n 
+0000057552 00000 n 
+0000057718 00000 n 
+0000057903 00000 n 
+0000059168 00000 n 
+0000059392 00000 n 
+0000059575 00000 n 
+0000059749 00000 n 
+0000059934 00000 n 
+0000061054 00000 n 
+0000061280 00000 n 
+0000061452 00000 n 
+0000061614 00000 n 
+0000061799 00000 n 
+0000063244 00000 n 
+0000063474 00000 n 
+0000063645 00000 n 
+0000063805 00000 n 
+0000063990 00000 n 
+0000065563 00000 n 
+0000065823 00000 n 
+0000066013 00000 n 
+0000066192 00000 n 
+0000066377 00000 n 
+0000067710 00000 n 
+0000067904 00000 n 
+0000068053 00000 n 
+trailer
+<< /Size 184 /Root 1 0 R /Info 5 0 R >>
+startxref
+68204
+%%EOF

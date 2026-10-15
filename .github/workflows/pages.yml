@@ -1,0 +1,64 @@
+name: Validate and optionally publish Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Deploy only after security remediation and human release approval
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEXT_PUBLIC_BASE_PATH: /github-copilot-business-labs
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --registry=https://registry.npmjs.org
+      - run: npm run check:publication
+      - run: npm run check:docs
+      - run: npm run check:release -- --scope contract
+      - run: npm run lint
+      - run: npm run test
+      - run: npm run test:publication
+      - run: npm audit --omit=dev
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npm run test:pages
+      - run: npm run check:release -- --scope all
+      - run: npm run check:publication -- --require-out
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    if: ${{ inputs.deploy && vars.PAGES_RELEASE_APPROVED == 'true' && github.ref == 'refs/heads/main' }}
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

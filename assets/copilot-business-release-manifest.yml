@@ -1,0 +1,870 @@
+release:
+  id: RLS-COPILOT-BUSINESS-2026-10-14
+  version: 1.0.0
+  date: 2026-10-14
+  status: released
+  locales: [en-CA, fr-CA]
+  referenceIde: vscode
+  historicalPdfPolicy: excluded-from-public-derivative
+  retentionDurationPolicy: excluded-until-live-verification
+  readmeSectionKeys:
+    - purpose
+    - application-and-lab
+    - prerequisites
+    - installation
+    - commands
+    - architecture
+    - routes
+    - local-data-and-privacy
+    - static-export-and-hosting
+    - accessibility
+    - learning-assets
+    - contributing
+    - freshness
+    - known-caveats
+  hosting:
+    status: prepared-not-deployed
+    localStaticExportSupported: true
+    basePath: /github-copilot-business-labs
+    publicUrl: https://devopsabcs-engineering.github.io/github-copilot-business-labs/
+    publicInstructions: manual-dispatch-and-explicit-release-approval-required
+    releaseApproval: pending
+  provenance:
+    kind: sanitized-clean-history-derivative
+    note: Adapted from an internal learning prototype; historical source PDFs, internal planning, local configuration, and original Git history are intentionally excluded.
+  facilitatorEditing:
+    sourceFormat: pptx
+    status: pending-manual-validation
+    powerPointLocallyDiscoverable: true
+    sourcesIncludeSpeakerNotes: true
+    decisionOnFailure: reopen-deck-source-only
+  presentation:
+    aspectRatio: 16:9
+    slideCount: 35
+    sourceGenerator: scripts/generate-course-decks.mjs
+    pdfExport: deterministic-node-writer
+    pdfAccessibilityScope: structure-language-bookmarks-links-and-extractable-text
+    manualAccessibilityStatus: pending
+
+testedEnvironment:
+  capturedAt: 2026-10-14
+  operatingSystem: Windows
+  architecture: arm64
+  node: v26.7.0
+  npm: 12.0.1
+  vscode: 1.141.0
+  githubCopilotExtension:
+    version: not-locally-discoverable
+    note: The VS Code extension listing did not expose a GitHub Copilot package version.
+  browsers:
+    - id: BROWSER-EDGE
+      name: Microsoft Edge
+      version: 155.0.4283.45
+    - id: BROWSER-CHROME
+      name: Google Chrome
+      version: 154.0.8037.93
+    - id: BROWSER-PLAYWRIGHT
+      name: Playwright browser matrix
+      version: 1.61.1
+  baseline:
+    npmCi: passed-with-registry-host-replacement
+    lint: passed
+    unitTests: 52-passed
+    build: passed
+    focusedE2e: 4-passed
+    hydrationDisposition: turbopack-dev-server-failure-isolated-by-production-static-export-e2e-workaround-not-application-code-fix
+    hydrationValidationCommand: npm run build && npm run serve:e2e
+
+curriculum:
+  conceptualOutcomes:
+    - id: OUT-01
+      title: Managed plan and trust boundary
+    - id: OUT-02
+      title: Verifiable repository context and prompting
+    - id: OUT-03
+      title: Focused completion, chat, and tests
+    - id: OUT-04
+      title: Edit and agent mode with guardrails
+    - id: OUT-05
+      title: Cloud delegation and pull-request review
+    - id: OUT-06
+      title: Models, customization, and least privilege
+    - id: OUT-07
+      title: Administration, metrics, and responsible adoption
+  modules:
+    - id: LAB-00
+      title: Prepare and establish trust boundaries
+      outcomes: [OUT-01, OUT-07]
+    - id: LAB-01
+      title: Give Copilot verifiable repository context
+      outcomes: [OUT-02]
+    - id: LAB-02
+      title: Use completion and chat for focused tests
+      outcomes: [OUT-03]
+    - id: LAB-03
+      title: Plan and validate a small refactoring
+      outcomes: [OUT-02, OUT-04]
+    - id: LAB-04
+      title: Generate an accessible browser test
+      outcomes: [OUT-03, OUT-04]
+    - id: LAB-05
+      title: Review privacy and local file behavior
+      outcomes: [OUT-01, OUT-07]
+    - id: LAB-06
+      title: Use agent mode with explicit guardrails
+      outcomes: [OUT-04, OUT-06]
+    - id: LAB-07
+      title: Delegate, review, and measure responsibly
+      outcomes: [OUT-05, OUT-07]
+    - id: LAB-CAP
+      title: Complete a reviewed change from prompt to evidence
+      outcomes: [OUT-01, OUT-02, OUT-03, OUT-04, OUT-05, OUT-06, OUT-07]
+
+labPrototype:
+  id: LAB-PROTOTYPE-001
+  module: LAB-00
+  outcome: OUT-01
+  content:
+    en-CA:
+      title: Establish the managed trust boundary
+      objective: Identify which repository content is appropriate to share with GitHub Copilot Business.
+    fr-CA:
+      title: Établir la limite de confiance gérée
+      objective: Déterminer quel contenu du dépôt peut être partagé avec GitHub Copilot Business.
+
+slides:
+  - id: OPEN-001
+    modules: [LAB-00]
+    claims: []
+    titles:
+      en-CA: GitHub Copilot Business fundamentals
+      fr-CA: Fondamentaux de GitHub Copilot Business
+  - id: OPEN-002
+    modules: []
+    claims: []
+    titles:
+      en-CA: Audience, agenda, and learning rhythm
+      fr-CA: Public, programme et rythme d'apprentissage
+  - id: OPEN-003
+    modules: []
+    claims: []
+    titles:
+      en-CA: Seven outcomes, one evidence trail
+      fr-CA: Sept résultats, une seule piste de preuves
+  - id: OPEN-004
+    modules: [LAB-00]
+    claims: [E07]
+    titles:
+      en-CA: Prepare the learning environment
+      fr-CA: Préparer l'environnement d'apprentissage
+  - id: MBOUND-001
+    modules: []
+    claims: [E01, E02, E03, E05]
+    titles:
+      en-CA: "Plan context: capability follows managed access"
+      fr-CA: "Contexte du forfait : la capacité suit l'accès géré"
+  - id: MBOUND-002
+    modules: [LAB-00, LAB-01]
+    claims: []
+    titles:
+      en-CA: Start with a managed trust boundary
+      fr-CA: Commencer par une limite de confiance gérée
+  - id: RESP-001
+    modules: [LAB-01]
+    claims: [E41, E42]
+    titles:
+      en-CA: Treat every output as a hypothesis
+      fr-CA: Traiter chaque résultat comme une hypothèse
+  - id: RESP-002
+    modules: [LAB-01, LAB-03]
+    claims: []
+    titles:
+      en-CA: Prompt for a verifiable result
+      fr-CA: Formuler une requête pour obtenir un résultat vérifiable
+  - id: FLOW-001
+    modules: []
+    claims: [E08, E09]
+    titles:
+      en-CA: Choose the least autonomous useful mode
+      fr-CA: Choisir le mode utile le moins autonome
+  - id: FLOW-002
+    modules: [LAB-02]
+    claims: []
+    titles:
+      en-CA: "Completions: keep the acceptance decision local"
+      fr-CA: "Suggestions : garder la décision d'acceptation locale"
+  - id: FLOW-003
+    modules: [LAB-02, LAB-03]
+    claims: []
+    titles:
+      en-CA: "Chat: explain, compare, then verify"
+      fr-CA: "Conversation : expliquer, comparer, puis vérifier"
+  - id: FLOW-004
+    modules: [LAB-03]
+    claims: []
+    titles:
+      en-CA: "Edit workflow: scope before applying"
+      fr-CA: "Flux de modification : délimiter avant d'appliquer"
+  - id: FLOW-005
+    modules: [LAB-06]
+    claims: [E08, E42]
+    titles:
+      en-CA: "Agent mode: grant tools one boundary at a time"
+      fr-CA: "Mode agent : accorder les outils une limite à la fois"
+  - id: FLOW-006
+    modules: [LAB-07]
+    claims: [E09, E10, E11]
+    titles:
+      en-CA: "Cloud delegation: define a reviewable task"
+      fr-CA: "Délégation infonuagique : définir une tâche révisable"
+  - id: FLOW-007
+    modules: [LAB-07, LAB-CAP]
+    claims: [E11, E42]
+    titles:
+      en-CA: "Review loop: evidence before merge"
+      fr-CA: "Boucle de révision : la preuve avant la fusion"
+  - id: CUSTOM-001
+    modules: [LAB-06]
+    claims: [E16, E17, E18]
+    titles:
+      en-CA: Customization is a layered contract
+      fr-CA: La personnalisation est un contrat en couches
+  - id: CUSTOM-002
+    modules: [LAB-06]
+    claims: [E16]
+    titles:
+      en-CA: Instructions and prompt files make intent reviewable
+      fr-CA: Les instructions et fichiers de requête rendent l'intention révisable
+  - id: CUSTOM-003
+    modules: [LAB-06]
+    claims: [E16, E17]
+    titles:
+      en-CA: Skills and hooks separate judgment from determinism
+      fr-CA: Les compétences et points d'ancrage séparent jugement et déterminisme
+  - id: CUSTOM-004
+    modules: [LAB-06]
+    claims: [E18, E19]
+    titles:
+      en-CA: "MCP: useful reach requires least privilege"
+      fr-CA: "MCP : une portée utile exige le moindre privilège"
+  - id: CUSTOM-005
+    modules: []
+    claims: [E12, E13, E14, E15]
+    titles:
+      en-CA: "Model choice: fit, policy, cost, then validation"
+      fr-CA: "Choix du modèle : adéquation, stratégie, coût, puis validation"
+  - id: ADOPT-001
+    modules: []
+    claims: [E19, E20, E30, E36, E37, E38, E40]
+    titles:
+      en-CA: Administration sets the usable boundary
+      fr-CA: L'administration définit la limite d'utilisation
+  - id: ADOPT-002
+    modules: [LAB-05]
+    claims: [E23, E39]
+    titles:
+      en-CA: Content exclusion is a partial control
+      fr-CA: L'exclusion de contenu est un contrôle partiel
+  - id: ADOPT-003
+    modules: [LAB-07]
+    claims: [E20, E21, E22, E31]
+    titles:
+      en-CA: Metrics guide questions, not causal claims
+      fr-CA: Les mesures orientent les questions, pas les liens de causalité
+  - id: LAB-00
+    modules: [LAB-00]
+    claims: []
+    titles:
+      en-CA: Lab 00 | Establish the managed trust boundary
+      fr-CA: Laboratoire 00 | Établir la limite de confiance gérée
+  - id: LAB-01
+    modules: [LAB-01]
+    claims: []
+    titles:
+      en-CA: Lab 01 | Give Copilot verifiable repository context
+      fr-CA: Laboratoire 01 | Fournir un contexte de dépôt vérifiable
+  - id: LAB-02
+    modules: [LAB-02]
+    claims: []
+    titles:
+      en-CA: Lab 02 | Use completion and chat for focused tests
+      fr-CA: Laboratoire 02 | Utiliser les suggestions et la conversation pour des tests ciblés
+  - id: LAB-03
+    modules: [LAB-03]
+    claims: []
+    titles:
+      en-CA: Lab 03 | Plan and validate a small refactoring
+      fr-CA: Laboratoire 03 | Planifier et valider une petite restructuration
+  - id: LAB-04
+    modules: [LAB-04]
+    claims: []
+    titles:
+      en-CA: Lab 04 | Generate an accessible browser test
+      fr-CA: Laboratoire 04 | Générer un test de navigateur accessible
+  - id: LAB-05
+    modules: [LAB-05]
+    claims: [E24, E25, E26]
+    titles:
+      en-CA: Lab 05 | Review privacy and local file behaviour
+      fr-CA: Laboratoire 05 | Réviser la confidentialité et le traitement local des fichiers
+  - id: LAB-06
+    modules: [LAB-06]
+    claims: [E08, E42]
+    titles:
+      en-CA: Lab 06 | Use agent mode with explicit guardrails
+      fr-CA: Laboratoire 06 | Utiliser le mode agent avec des garde-fous explicites
+  - id: LAB-07
+    modules: [LAB-07]
+    claims: [E09, E11, E22]
+    titles:
+      en-CA: Lab 07 | Delegate, review, and measure responsibly
+      fr-CA: Laboratoire 07 | Déléguer, réviser et mesurer de façon responsable
+  - id: LAB-CAP
+    modules: [LAB-CAP]
+    claims: []
+    titles:
+      en-CA: Capstone | From prompt to reviewed evidence
+      fr-CA: Projet synthèse | De la requête à la preuve révisée
+  - id: APPX-001
+    modules: []
+    claims: [E03, E04, E40]
+    titles:
+      en-CA: Dated appendix | Plans and commercial context (2026-10-14)
+      fr-CA: Annexe datée | Forfaits et contexte commercial (2026-10-14)
+  - id: APPX-002
+    modules: []
+    claims: [E06, E10, E12, E26, E30, E32]
+    titles:
+      en-CA: Dated appendix | Feature and model volatility (2026-10-14)
+      fr-CA: Annexe datée | Volatilité des fonctionnalités et modèles (2026-10-14)
+  - id: APPX-003
+    modules: []
+    claims: [E20, E21, E22, E26, E31]
+    titles:
+      en-CA: References and freshness ownership
+      fr-CA: Références et responsabilité de l'actualité
+
+terminology:
+  - id: TERM-001
+    en-CA: GitHub Copilot Business
+    fr-CA: GitHub Copilot Business
+  - id: TERM-002
+    en-CA: agent mode
+    fr-CA: mode agent
+  - id: TERM-003
+    en-CA: cloud agent
+    fr-CA: agent infonuagique
+  - id: TERM-004
+    en-CA: content exclusion
+    fr-CA: exclusion de contenu
+  - id: TERM-005
+    en-CA: pull request
+    fr-CA: demande de tirage
+  - id: TERM-006
+    en-CA: speaker notes
+    fr-CA: notes du présentateur
+
+claims:
+  - id: E01
+    statement: Business is the centrally managed organization plan.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/get-started/plans
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: before-every-release
+  - id: E02
+    statement: Enterprise requires GitHub Enterprise Cloud and includes Business features.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/get-started/plans
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: before-every-release
+  - id: E03
+    statement: Published plan prices and AI-credit allowances are dated commercial facts.
+    classification: volatile
+    volatility: very-high
+    source: https://docs.github.com/en/copilot/get-started/plans#github-ai-credits-allowance-by-plan-1
+    accessed: 2026-10-14
+    owner: commercial-reviewer
+    recheck: before-every-delivery
+  - id: E04
+    statement: Overage pricing and unlimited paid-plan completions are dated billing facts.
+    classification: volatile
+    volatility: very-high
+    source: https://docs.github.com/en/copilot/get-started/plans#github-ai-credits-allowance-by-plan-1
+    accessed: 2026-10-14
+    owner: commercial-reviewer
+    recheck: before-every-delivery
+  - id: E05
+    statement: Copilot availability for GitHub Enterprise Server must be checked against the current plan page.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/get-started/plans
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: before-platform-comparison
+  - id: E06
+    statement: Feature support varies by IDE and the published feature matrix is preview.
+    classification: volatile
+    volatility: very-high
+    source: https://docs.github.com/en/copilot/reference/copilot-feature-matrix
+    accessed: 2026-10-14
+    owner: lab-owner
+    recheck: before-every-lab-freeze
+  - id: E07
+    statement: The IDE quickstart requires a plan, extension, and authenticated IDE.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide
+    accessed: 2026-10-14
+    owner: lab-owner
+    recheck: before-every-release
+  - id: E08
+    statement: Agent mode can choose files, make edits, and run commands subject to approval.
+    classification: durable
+    volatility: high
+    source: https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide#let-copilot-work-through-a-task
+    accessed: 2026-10-14
+    owner: lab-owner
+    recheck: before-agent-lab
+  - id: E09
+    statement: The cloud agent works asynchronously and delivers pull-request evidence.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: before-cloud-agent-lab
+  - id: E10
+    statement: Cloud-agent repository, branch, pull-request, and duration limits are volatile.
+    classification: volatile
+    volatility: very-high
+    source: https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent
+    accessed: 2026-10-14
+    owner: lab-owner
+    recheck: before-cloud-agent-lab
+  - id: E11
+    statement: Cloud-agent output requires human review and uses constrained permissions.
+    classification: durable
+    volatility: high
+    source: https://docs.github.com/en/copilot/concepts/agents/cloud-agent/risks-and-mitigations
+    accessed: 2026-10-14
+    owner: security-reviewer
+    recheck: before-cloud-agent-lab
+  - id: E12
+    statement: Model availability and provider-specific conditions depend on plan, policy, client, rollout, and current model footnotes.
+    classification: volatile
+    volatility: very-high
+    source: https://docs.github.com/en/copilot/reference/ai-models/supported-models
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: delivery-day
+  - id: E13
+    statement: Automatic model selection considers availability and rate limiting.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/how-tos/use-ai-models/change-the-chat-model
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: before-model-guidance
+  - id: E14
+    statement: Chat model selection does not control inline-suggestion models.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/how-tos/use-ai-models/change-the-chat-model
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: before-model-guidance
+  - id: E15
+    statement: Business policy can govern model switching and bring-your-own-key use.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/how-tos/use-ai-models/change-the-chat-model
+    accessed: 2026-10-14
+    owner: governance-owner
+    recheck: before-model-guidance
+  - id: E16
+    statement: Instructions, prompt files, agents, skills, hooks, and MCP have distinct triggers and locations.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/reference/customization-cheat-sheet
+    accessed: 2026-10-14
+    owner: lab-owner
+    recheck: before-customization-lab
+  - id: E17
+    statement: Agent skills are folders loaded on demand and follow an open standard.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/concepts/agents/about-agent-skills
+    accessed: 2026-10-14
+    owner: lab-owner
+    recheck: before-customization-lab
+  - id: E18
+    statement: MCP connects Copilot to external context and tools across supported surfaces.
+    classification: durable
+    volatility: high
+    source: https://docs.github.com/en/copilot/concepts/context/mcp
+    accessed: 2026-10-14
+    owner: governance-owner
+    recheck: before-mcp-lab
+  - id: E19
+    statement: Managed MCP policy defaults and subscription boundaries are volatile.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/concepts/context/mcp
+    accessed: 2026-10-14
+    owner: governance-owner
+    recheck: before-mcp-lab
+  - id: E20
+    statement: Seat management, not usage metrics, is the license source of truth.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/concepts/billing-and-usage/copilot-usage-metrics/copilot-metrics
+    accessed: 2026-10-14
+    owner: adoption-owner
+    recheck: before-metrics-lab
+  - id: E21
+    statement: Usage-metric surface coverage has explicit inclusions and exclusions.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/concepts/billing-and-usage/copilot-usage-metrics/copilot-metrics
+    accessed: 2026-10-14
+    owner: adoption-owner
+    recheck: before-metrics-lab
+  - id: E22
+    statement: Usage metrics can lag and require careful organization attribution.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/concepts/billing-and-usage/copilot-usage-metrics/copilot-metrics
+    accessed: 2026-10-14
+    owner: adoption-owner
+    recheck: before-metrics-lab
+  - id: E23
+    statement: Content exclusion is not supported in every editor mode.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/concepts/content-exclusion
+    accessed: 2026-10-14
+    owner: security-reviewer
+    recheck: before-governance-guidance
+  - id: E24
+    statement: GitHub does not own customer inputs or outputs under the cited terms.
+    classification: durable
+    volatility: medium
+    source: https://github.com/customer-terms/github-generative-ai-services-terms
+    accessed: 2026-10-14
+    owner: legal-reviewer
+    recheck: contract-renewal-or-terms-change
+  - id: E25
+    statement: GitHub-direct volume terms limit model training on Business inputs and outputs absent documented instruction; Microsoft purchasing channels use different governing terms.
+    classification: durable
+    volatility: medium
+    source: https://github.com/customer-terms/github-generative-ai-services-terms
+    accessed: 2026-10-14
+    owner: legal-reviewer
+    recheck: contract-renewal-or-purchasing-channel-change
+  - id: E26
+    statement: Retention depends on the service, purchasing channel, governing agreement, and model-provider conditions; no exact duration is asserted in this release.
+    classification: volatile
+    volatility: very-high
+    source: https://github.com/customer-terms/github-generative-ai-services-terms
+    accessed: 2026-10-14
+    owner: privacy-reviewer
+    recheck: before-privacy-publication
+  - id: E27
+    statement: Organization-provided accounts generally make the organization controller and GitHub processor.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+    accessed: 2026-10-14
+    owner: privacy-reviewer
+    recheck: terms-change-or-customer-review
+  - id: E28
+    statement: GitHub maintains a Copilot-specific trust and compliance source.
+    classification: durable
+    volatility: medium
+    source: https://copilot.github.trust.page/
+    accessed: 2026-10-14
+    owner: privacy-reviewer
+    recheck: before-privacy-publication
+  - id: E29
+    statement: GitHub announced ISO/IEC 42001 certification in March 2026.
+    classification: volatile
+    volatility: high
+    source: https://copilot.github.trust.page/updates
+    accessed: 2026-10-14
+    owner: compliance-reviewer
+    recheck: before-certification-claim
+  - id: E30
+    statement: Preview features can change or be discontinued.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#previews
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: before-preview-guidance
+  - id: E31
+    statement: Metrics accuracy can depend on current IDE and extension versions.
+    classification: volatile
+    volatility: very-high
+    source: https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics
+    accessed: 2026-10-14
+    owner: adoption-owner
+    recheck: before-metrics-lab
+  - id: E32
+    statement: Model catalogs and retirement schedules change rapidly.
+    classification: volatile
+    volatility: very-high
+    source: https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated
+    accessed: 2026-10-14
+    owner: course-owner
+    recheck: delivery-day
+  - id: E33
+    statement: The official Skills lab teaches planning, development, and pull-request review in under an hour.
+    classification: durable
+    volatility: medium
+    source: https://github.com/skills/getting-started-with-github-copilot
+    accessed: 2026-10-14
+    owner: curriculum-owner
+    recheck: before-every-release
+  - id: E34
+    statement: Microsoft Learn provides a broad GitHub Copilot fundamentals path.
+    classification: durable
+    volatility: medium
+    source: https://learn.microsoft.com/en-us/training/paths/copilot/
+    accessed: 2026-10-14
+    owner: curriculum-owner
+    recheck: before-every-release
+  - id: E35
+    statement: The introductory Learn module includes basic prerequisites and an IDE exercise.
+    classification: durable
+    volatility: medium
+    source: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/
+    accessed: 2026-10-14
+    owner: curriculum-owner
+    recheck: before-every-release
+  - id: E36
+    statement: Seat billing begins when access is granted and mid-cycle grants are prorated.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/manage-access/grant-access
+    accessed: 2026-10-14
+    owner: commercial-reviewer
+    recheck: before-admin-lab
+  - id: E37
+    statement: Organizations support multiple documented seat-assignment workflows.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/manage-access/grant-access
+    accessed: 2026-10-14
+    owner: governance-owner
+    recheck: before-admin-lab
+  - id: E38
+    statement: Enterprise policy spans agents, models, billing, privacy, features, and MCP.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies
+    accessed: 2026-10-14
+    owner: governance-owner
+    recheck: before-admin-lab
+  - id: E39
+    statement: Content exclusion has mode, semantic, symlink, and remote-filesystem limitations.
+    classification: volatile
+    volatility: high
+    source: https://docs.github.com/en/copilot/concepts/content-exclusion
+    accessed: 2026-10-14
+    owner: security-reviewer
+    recheck: before-governance-guidance
+  - id: E40
+    statement: AI-credit conversion, pooled allowance, rollover, and additional paid usage are token-, model-, and policy-sensitive.
+    classification: volatile
+    volatility: very-high
+    source: https://docs.github.com/en/copilot/concepts/billing-and-usage/organizations-and-enterprises/billing
+    accessed: 2026-10-14
+    owner: commercial-reviewer
+    recheck: before-every-delivery
+  - id: E41
+    statement: Responsible use requires understanding purpose, capability, and limitations.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/responsible-use
+    accessed: 2026-10-14
+    owner: curriculum-owner
+    recheck: before-every-release
+  - id: E42
+    statement: Agentic output can be incorrect or insecure and requires review and testing.
+    classification: durable
+    volatility: medium
+    source: https://docs.github.com/en/copilot/responsible-use/agents
+    accessed: 2026-10-14
+    owner: security-reviewer
+    recheck: before-every-release
+
+claimDispositions:
+  - { id: E01, disposition: slide }
+  - { id: E02, disposition: slide }
+  - { id: E03, disposition: slide }
+  - { id: E04, disposition: slide }
+  - { id: E05, disposition: slide }
+  - { id: E06, disposition: slide }
+  - { id: E07, disposition: slide }
+  - { id: E08, disposition: slide }
+  - { id: E09, disposition: slide }
+  - { id: E10, disposition: slide }
+  - { id: E11, disposition: slide }
+  - { id: E12, disposition: slide }
+  - { id: E13, disposition: slide }
+  - { id: E14, disposition: slide }
+  - { id: E15, disposition: slide }
+  - { id: E16, disposition: slide }
+  - { id: E17, disposition: slide }
+  - { id: E18, disposition: slide }
+  - { id: E19, disposition: slide }
+  - { id: E20, disposition: slide }
+  - { id: E21, disposition: slide }
+  - { id: E22, disposition: slide }
+  - { id: E23, disposition: slide }
+  - { id: E24, disposition: slide }
+  - { id: E25, disposition: slide }
+  - { id: E26, disposition: slide }
+  - id: E27
+    disposition: lab
+    rationale: The controller-and-processor context supports the LAB-05 privacy review but is not a durable slide claim without customer agreement review.
+  - id: E28
+    disposition: facilitator-only
+    rationale: The Trust Center is a delivery-day evidence source for privacy review, not a standalone learner claim.
+  - id: E29
+    disposition: facilitator-only
+    rationale: The dated certification announcement is omitted from learner slides until the current certificate and scope receive publication review.
+  - { id: E30, disposition: slide }
+  - { id: E31, disposition: slide }
+  - { id: E32, disposition: slide }
+  - id: E33
+    disposition: source-only
+    rationale: The external Skills lab informed curriculum design but is not a claim required in the released course.
+  - id: E34
+    disposition: source-only
+    rationale: The Microsoft Learn path is a curriculum research source rather than a released-deck teaching point.
+  - id: E35
+    disposition: source-only
+    rationale: The introductory Learn module is a curriculum benchmark rather than a released-deck teaching point.
+  - { id: E36, disposition: slide }
+  - { id: E37, disposition: slide }
+  - { id: E38, disposition: slide }
+  - { id: E39, disposition: slide }
+  - { id: E40, disposition: slide }
+  - { id: E41, disposition: slide }
+  - { id: E42, disposition: slide }
+
+artifacts:
+  - id: ART-DECK-EN-SOURCE
+    kind: pptx-source
+    locale: en-CA
+    path: assets/github-copilot-business-fundamentals-en.pptx
+    status: current
+    requiredNow: true
+    releaseId: RLS-COPILOT-BUSINESS-2026-10-14
+    releaseVersion: 1.0.0
+    releaseDate: 2026-10-14
+  - id: ART-DECK-FR-SOURCE
+    kind: pptx-source
+    locale: fr-CA
+    path: assets/github-copilot-business-fundamentals-fr-CA.pptx
+    status: current
+    requiredNow: true
+    releaseId: RLS-COPILOT-BUSINESS-2026-10-14
+    releaseVersion: 1.0.0
+    releaseDate: 2026-10-14
+  - id: ART-DECK-EN-PDF
+    kind: generated-pdf
+    locale: en-CA
+    path: assets/github-copilot-business-fundamentals-en.pdf
+    status: current
+    requiredNow: true
+    releaseId: RLS-COPILOT-BUSINESS-2026-10-14
+    releaseVersion: 1.0.0
+    releaseDate: 2026-10-14
+  - id: ART-DECK-FR-PDF
+    kind: generated-pdf
+    locale: fr-CA
+    path: assets/github-copilot-business-fundamentals-fr-CA.pdf
+    status: current
+    requiredNow: true
+    releaseId: RLS-COPILOT-BUSINESS-2026-10-14
+    releaseVersion: 1.0.0
+    releaseDate: 2026-10-14
+  - id: ART-README-EN
+    kind: documentation
+    locale: en-CA
+    path: README.md
+    status: current
+    requiredNow: true
+    releaseId: RLS-COPILOT-BUSINESS-2026-10-14
+    releaseVersion: 1.0.0
+    releaseDate: 2026-10-14
+  - id: ART-README-FR
+    kind: documentation
+    locale: fr-CA
+    path: README.fr.md
+    status: current
+    requiredNow: true
+    releaseId: RLS-COPILOT-BUSINESS-2026-10-14
+    releaseVersion: 1.0.0
+    releaseDate: 2026-10-14
+  - id: ART-LAB
+    kind: static-route
+    locale: bilingual
+    path: src/app/lab
+    status: current
+    requiredNow: true
+    releaseId: RLS-COPILOT-BUSINESS-2026-10-14
+    releaseVersion: 1.0.0
+    releaseDate: 2026-10-14
+
+validation:
+  contract:
+    id: VAL-CONTRACT
+    checks:
+      - required-sections
+      - unique-stable-ids
+      - locale-mappings
+      - curriculum-mappings
+      - readme-key-declarations
+      - artifact-path-status
+      - public-derivative-exclusion-hashes-and-paths
+      - aligned-pptx-structure
+      - speaker-notes-and-claim-ids
+      - pdf-page-metadata-language-tags-bookmarks-links-and-text
+  automated:
+    - id: VAL-DECK-GENERATE
+      command: npm run generate:decks
+    - id: VAL-DECK-STRUCTURE
+      command: npm run check:release -- --scope deck
+    - id: VAL-DECK-RENDER
+      command: npm run check:deck-render
+    - id: VAL-LINT
+      command: npm run lint
+    - id: VAL-UNIT
+      command: npm run test
+    - id: VAL-BUILD
+      command: npm run build
+    - id: VAL-E2E-FOCUSED
+      command: npm run test:e2e -- --grep "confirmation|statuts"
+  manual:
+    - id: VAL-FACILITATOR-EDITING
+      status: pending
+      reason: PowerPoint was not locally discoverable for an ordinary facilitator edit-and-save check.
+    - id: VAL-PUBLICATION-APPROVAL
+      status: pending
+      reason: Pages subpath is prepared; dependency audit resolution and explicit human release approval are required before deployment.
+    - id: VAL-PRESENTATION-ACCESSIBILITY
+      status: pending
+      reason: PowerPoint Accessibility Checker and human reading-order review require manual execution.
+    - id: VAL-PDF-SCREEN-READER
+      status: pending
+      reason: Local structural checks cannot prove assistive-technology reading order or tag quality.
+    - id: VAL-BILINGUAL-FLUENCY
+      status: pending
+      reason: Automated alignment cannot approve fluent English and Canadian French terminology or meaning.
